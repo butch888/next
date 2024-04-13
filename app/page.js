@@ -17,9 +17,9 @@ export default async function Home() {
             <h3>
               {post.title}
             </h3>
-            <p>
+            {/* <p>
               {post.body}
-            </p>
+            </p> */}
             <Link href={'/post/' + post.id}>More...</Link>
           </div>
         ))}
